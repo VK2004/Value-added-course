@@ -1,6 +1,6 @@
 # IPL Win Predictor
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Predictor-brightgreen)](https://ipl-match-predictor.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Predictor-brightgreen)](https://ipl-win-predictor-vk.streamlit.app/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub%20Repo-IPL%20Win%20Predictor-green)](https://github.com/VK2004/Value-added-course)
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -17,7 +17,7 @@ Welcome to the "IPL Win Predictor" project! This machine learning model, built u
 The "IPL Win Predictor" leverages logistic regression to provide insights into the probability of a team winning an IPL match. This model analyzes various match features, team performance, and player statistics to offer real-time predictions.
 
 ## Project Preview
-![Capture](https://github.com/rajatrawal/ipl-win-predictor/assets/72153827/071a020f-0bf5-4872-904f-5f9a0e928fd1)
+![Capture](https://github.com/VK2004/Value-added-course/blob/main/Capture.PNG)
 
 
 ## Explore the Project
@@ -96,10 +96,10 @@ To make predictions, provide the current match situation including team performa
 
 ## Predict with Confidence
 
-Explore the "IPL Win Predictor" and make data-driven predictions about IPL match outcomes. Get real-time insights and enhance your understanding of match dynamics. Visit the [Live Demo](https://ipl-match-predictor.streamlit.app/) and elevate your cricket analysis.
+Explore the "IPL Win Predictor" and make data-driven predictions about IPL match outcomes. Get real-time insights and enhance your understanding of match dynamics. Visit the [Live Demo](https://ipl-win-predictor-vk.streamlit.app/) and elevate your cricket analysis.
 
 ## Contribute
 
-If you'd like to contribute to this project or have suggestions for improvement, please feel free to submit issues or pull requests on [GitHub](https://github.com/rajatrawal/ipl-win-predictor).
+If you'd like to contribute to this project or have suggestions for improvement, please feel free to submit issues or pull requests on [GitHub](https://github.com/VK2004/Value-added-course).
 
 Thank you for exploring the "IPL Win Predictor"! We hope this tool assists your IPL match predictions. 🏏🌟
