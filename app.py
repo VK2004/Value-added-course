@@ -45,10 +45,15 @@ if st.button('Predict Probability'):
     wickets = 10-wickets
     crr = score/overs
     rrr = runs_left*6/balls_left
-    df =pd.DataFrame({'batting_team':[batting_team],'bowling_team':[bowling_team],'city':[selected_city],'runs_left':[runs_left],'balls_left':[balls_left],'wickets':[wickets],'total_runs_x':[target],'crr':[crr],'rrr':[rrr]})    
-    result = pipe.predict_proba(df)
-    r_1 = round(result[0][0]*100)
-    r_2 = round(result[0][1]*100)
-    st.header('Wining Probabilty ')
-    st.header(f"{batting_team}  : {r_2} %")
-    st.header(f"{bowling_team}  : {r_1} %")
+    if (target == 0 and score == 0 and wickets == 0 and overs == 0 and batting_team != bowling_team):
+        st.header('Winning Probability')
+        st.header(f"{batting_team}  : 50 %")
+        st.header(f"{bowling_team}  : 50 %")
+    else:
+        df = pd.DataFrame({'batting_team': [batting_team], 'bowling_team': [bowling_team], 'city': [selected_city], 'runs_left': [runs_left], 'balls_left': [balls_left], 'wickets': [remaining_wickets], 'total_runs_x': [target], 'crr': [crr], 'rrr': [rrr]})
+        result = pipe.predict_proba(df)
+        r_1 = round(result[0][0] * 100)
+        r_2 = round(result[0][1] * 100)
+        st.header('Winning Probability')
+        st.header(f"{batting_team}  : {r_2} %")
+        st.header(f"{bowling_team}  : {r_1} %")
