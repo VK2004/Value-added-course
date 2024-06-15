@@ -1,6 +1,6 @@
 # IPL Win Predictor
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Predictor-brightgreen)](https://ipl-win-predictor-vk.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Predictor-brightgreen)](https://ipl-win-predector-vk.streamlit.app/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub%20Repo-IPL%20Win%20Predictor-green)](https://github.com/VK2004/Value-added-course)
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -22,7 +22,7 @@ The "IPL Win Predictor" leverages logistic regression to provide insights into t
 
 ## Explore the Project
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Predictor-brightgreen)](https://ipl-match-predictor.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Predictor-brightgreen)](https://ipl-win-predector-vk.streamlit.app/)
 
 ### Features
 
@@ -96,7 +96,7 @@ To make predictions, provide the current match situation including team performa
 
 ## Predict with Confidence
 
-Explore the "IPL Win Predictor" and make data-driven predictions about IPL match outcomes. Get real-time insights and enhance your understanding of match dynamics. Visit the [Live Demo](https://ipl-win-predictor-vk.streamlit.app/) and elevate your cricket analysis.
+Explore the "IPL Win Predictor" and make data-driven predictions about IPL match outcomes. Get real-time insights and enhance your understanding of match dynamics. Visit the [Live Demo](https://ipl-win-predector-vk.streamlit.app/) and elevate your cricket analysis.
 
 ## Contribute
 
