@@ -47,6 +47,7 @@ if st.button('Predict Probability'):
     rrr = (runs_left * 6) / balls_left if balls_left > 0 else 0
     
     if (target == 0 and score == 0 and wickets == 0 and overs == 0 and batting_team != bowling_team):
+        df = pd.DataFrame({'batting_team': [batting_team], 'bowling_team': [bowling_team], 'city': [selected_city], 'runs_left': [runs_left], 'balls_left': [balls_left], 'wickets': [wickets], 'total_runs_x': [target], 'crr': [crr], 'rrr': [rrr]})
         st.header('Winning Probability')
         st.header(f"{batting_team}  : 50 %")
         st.header(f"{bowling_team}  : 50 %")
